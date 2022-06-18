@@ -1,0 +1,104 @@
+.top-menu{
+    display: flex;
+    justify-content: center;
+    height: 49px;
+}
+
+.top-menu-heading{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.head{
+    top: 1rem;
+    left: 2rem;
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.head-r{
+    height: 2rem;
+    width: 5.1rem;
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #01a39d;
+    border-radius: 2rem;
+}
+
+.contact{
+    background-color: #fff;
+}
+
+.top-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.top1{
+width: 55%;
+display: flex;
+flex-direction: row;
+}
+
+.profile{
+    padding: 20px;
+}
+
+.profile img{
+    height: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.address{
+    margin-top: -20px;
+}
+
+.address-buttons{
+    display: flex;
+    flex-direction: row;
+    
+} 
+
+.address-buttons button{
+    border-radius: 20px;
+    width: 6.1rem;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.green{
+    background-color: #01a39d;
+}
+
+.btn-r{
+    margin-left: 20px;
+}
+
+.eng{
+    font-size: 0.9rem;
+    font-style: italic;
+}
